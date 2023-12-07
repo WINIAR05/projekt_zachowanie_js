@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przeliczanie punktów</title>
+    <link rel="stylesheet" href="projekt_css.css">
+</head>
+<body>
+    <header>
+        <h1>OBLICZANIE OCENY Z ZACHOWANIA</h1>
+    </header>
+    <div class="grid text-center">
+        <div class="g-col-4">
+            <form id="dane">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Przeliczanie punktów ujemne</h5>
+                        <select class="form-select" id="a0" multiple aria-label="Multiple select example">
+                        </select>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Przeliczanie punktów dodatnie</h5>
+                        <select class="form-select" id="b0" multiple aria-label="Multiple select example">
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="wypluwacz"></div>
+    <div id="zliczonePunkty"></div>
+    <button id="dodajPunkty">Dodaj Punkty</button>
+    <button id="resetujPunkty">Resetuj Punkty</button>
+    ,<script src="index.js"></script>
+</body>
+</html>
