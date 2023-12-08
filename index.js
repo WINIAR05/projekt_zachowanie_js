@@ -100,7 +100,6 @@ const daneJsonUjemne = {
                   option.value = `p${key}`;
                   option.textContent = `${value.pozycja} [${z}]`;
   
-                  // Dodaj do obu formularzy
                   option.addEventListener("click", () => {
                       zliczPunkty();
                   });
